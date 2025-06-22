@@ -1,0 +1,155 @@
+/* ====== Global Reset & Defaults ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ====== Menu Container ====== */
+.menu-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+
+  background-color: #5995DA;
+  color: #fff;
+
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+
+  border: 3px solid #5995DA;
+  border-radius: 5px;
+
+  user-select: none;
+}
+
+/* ====== Menu Inner Wrapper ====== */
+.menu {
+  width: 900px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* ====== Date Box ====== */
+.date {
+  height: 50px;
+  padding: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.61);
+  border-radius: 10px;
+}
+
+/* ====== Links Group ====== */
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin: 10px;
+
+  /* box-sizing kept as requested */
+  box-sizing: content-box;
+}
+
+/* ====== Login & Signup Buttons ====== */
+.login,
+.signup {
+  margin: 5px;
+  padding: 5px;
+}
+
+
+
+.login {
+  flex: 1;
+}
+
+.login:hover, .signup:hover{
+    background-color: rgba(0, 0, 0, 0.61);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.header-container {
+  color: #5995DA;
+  background-color: #D6E9FE;
+  display: flex;
+  justify-content: center;
+}
+
+.logo{
+    align-items: center;
+}
+
+.header {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .subscribe{
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;    /* Change this */
+  flex-wrap: wrap;
+}
+
+
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+}
+
+.social,
+.subscribe {
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
+/*   border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
+  flex: 1;
+  margin: 5px; */
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  border: 1px solid #fff;
+  background-color: #D6E9FE;
+  height: 200px;
+  flex: 1;
+}
+
+/* .footer-three{
+  flex: 2;
+} */
+
+.footer-one,
+.footer-three {
+  background-color: #5995DA;
+  flex: initial;
+  width: 300px;
+}
